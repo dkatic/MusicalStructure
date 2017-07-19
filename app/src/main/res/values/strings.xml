@@ -5,4 +5,12 @@
     <string name="time_elapsed">0:00</string>
     <string name="time_total">3:11</string>
     <string name="playlist">Playlist Name</string>
+    <string name="tracks">Tracks</string>
+    <string name="albums">Albums</string>
+    <string name="playlist_activity">Playlists</string>
+    <string name="payment">Store</string>
+    <string name="tracks_text">Add list of all track on the phone. User can click on any item in the list to play it.</string>
+    <string name="albums_text">Albums Use list to display albums. When user click on artist start playing tracks in album.</string>
+    <string name="playlist_text">This is playlist screen. Here is list of all playlist created and floating button to create new playlist. When user click on playlist it starts playing tracks in it.</string>
+    <string name="payment_text">This is store screen. I woud try to open google play in this activity with music that user can buy.</string>
 </resources>

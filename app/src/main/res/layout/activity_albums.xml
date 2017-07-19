@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.david.musicalstructure.AlbumsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/button_tracks"
+            style="@style/ImageView"
+            android:src="@drawable/tracksbutton"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/button_albums"
+            style="@style/ImageView"
+            android:background="@color/colorAccent"
+            android:src="@drawable/albumsbutton"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/button_playlist"
+            style="@style/ImageView"
+            android:src="@drawable/playlistbutton"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/button_payment"
+            style="@style/ImageView"
+            android:src="@drawable/paymentbutton"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text"
+        android:text="@string/albums_text" />
+
+</LinearLayout>

@@ -9,13 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TracksActivity"
+            android:label="@string/tracks"
+            android:theme="@style/tracks" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="@string/albums"
+            android:theme="@style/albums" />
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/playlist_activity"
+            android:theme="@style/playlist_activity" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/payment"
+            android:theme="@style/payment" />
+
     </application>
 
 </manifest>
